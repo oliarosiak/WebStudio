@@ -722,8 +722,12 @@ a {
 
 .portfolio-filter {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.portfolio-filter__item {
+  margin-bottom: 15px;
 }
 
 .portfolio-filter__item:not(:last-child) {
@@ -731,12 +735,12 @@ a {
 }
 
 .portfolio-filter__btn {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  padding: 6px 22px;
   color: var(--second-text-color);
   background-color: var(--secong-background-color);
   border-radius: 4px;
@@ -752,15 +756,10 @@ a {
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
   margin-bottom: -30px;
 }
 
 .portfolio-list__item {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
   margin-bottom: 30px;
 }
 
@@ -830,10 +829,11 @@ a {
 }
 
 .portfolio-list__info {
+  padding: 20px 24px;
+  text-align: left;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  padding: 20px 24px;
 }
 
 .portfolio-list__title {
@@ -842,10 +842,10 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
-  margin-bottom: 2px;
 }
 
 .portfolio-list__text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--main-text-color);
