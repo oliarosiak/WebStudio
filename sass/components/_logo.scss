@@ -1,6 +1,6 @@
 .logo {
   font-family: Raleway, sans-serif;
-  @include font(700, 26px, 1.19);
+  @include font(700, 24px, 1.17);
   color: var(--accent-color);
 }
 
@@ -8,15 +8,17 @@
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
-  &__span {
-    color: var(--second-text-color);
-  }
+}
+
+.header-logo__span {
+  color: var(--second-text-color);
 }
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
-  &__span {
-    color: var(--third-text-color);
-  }
+}
+
+.footer-logo__span {
+  color: var(--third-text-color);
 }
