@@ -1,25 +1,23 @@
 .clients-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: -15px;
 }
 
 .clients-list__item {
-  width: 170px;
+  flex-basis: calc((100% - 2 * 30px) / 2);
   height: 92px;
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+  margin: 15px;
 }
 
 .clients-list__link {
   width: 100%;
   height: 100%;
-  @include centeredflex();
-
   border: 1px solid var(--icons-color);
   border-radius: 4px;
+  @include centeredflex();
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   &:hover,
   &:focus {
     border-color: var(--accent-color);
@@ -31,9 +29,17 @@
   height: 60px;
   fill: var(--icons-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   .clients-list__link:hover &,
   .clients-list__link:focus & {
     fill: var(--accent-color);
   }
 }
+
+//
+
+// .clients-list__item {
+//   width: 170px;
+//   &:not(:last-child) {
+//     margin-right: 30px;
+//   }
+// }
