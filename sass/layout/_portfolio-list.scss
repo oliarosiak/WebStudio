@@ -1,13 +1,14 @@
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
   margin-bottom: -30px;
+
+  // display: flex;
+  // flex-wrap: wrap;
+  // margin-left: -30px;
 }
 
 .portfolio-list__item {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
+  // flex-basis: calc((100% - 90px) / 3);
+  // margin-left: 30px;
   margin-bottom: 30px;
 }
 
@@ -69,21 +70,21 @@
 }
 
 .portfolio-list__info {
+  padding: 20px 24px;
+  text-align: left;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  padding: 20px 24px;
 }
 
 .portfolio-list__title {
   @include font(700, 18px, 2);
   letter-spacing: 0.06em;
   color: var(--second-text-color);
-  margin-bottom: 2px;
+  // margin-bottom: 2px;
 }
 
 .portfolio-list__text {
-  font-size: 16px;
-  line-height: 1.87;
+  @include font(400, 16px, 1.87);
   color: var(--main-text-color);
 }
