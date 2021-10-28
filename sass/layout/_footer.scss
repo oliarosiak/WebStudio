@@ -4,24 +4,25 @@
   padding-bottom: 60px;
 }
 
-.footer__container {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer__address {
-  flex-grow: 1;
-  margin-right: 70px;
+  margin-bottom: 60px;
+  //   flex-grow: 1;
+  //   margin-right: 70px;
 }
 
 .footer__social {
-  margin-right: 93px;
+  margin-bottom: 60px;
+  //   margin-right: 93px;
 }
 
 .footer__title {
-  font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: var(--third-text-color);
   margin-bottom: 20px;
 }
+
+// .footer__container {
+//   display: flex;
+//   align-items: baseline;
+// }
