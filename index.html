@@ -38,6 +38,15 @@
                         <a class="nav-list__link" href="">Контакты</a>
                     </li>
                 </ul>
+
+                <button class="menu-btn is-open" type="button" >
+                    <svg width="40" height="40" aria-label="Переключатель мобільного меню">
+                        <use class="menu-btn__icon-menu" href="./images/icons.svg#icon-menu"></use>
+                        <use class="menu-btn__icon-cross" href="./images/icons.svg#icon-cross"></use>
+                    </svg>
+                </button>
+
+                
             </nav>
             
             <!--Contacts information-->
@@ -424,7 +433,7 @@
             </div>
 
             <!-- Footer email subscribe -->
-            <div>
+            <div class="footer__subscribe">
                 <h3 class="footer__title">Подпишитесь на рассылку</h3>
                 <form class="subscribe-form">
                     <label for="mail-subscribe"></label>
@@ -503,8 +512,13 @@
         </div>
     </div>
 
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
+
     <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/mobile-menu.js"></script> -->
 </body>
 
 </html>
