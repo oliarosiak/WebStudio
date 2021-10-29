@@ -3,7 +3,12 @@
 }
 
 .header__container {
+  min-height: 59px;
+  display: flex;
+
   @media screen and (min-width: 768px) {
-    display: flex;
+    min-height: 79px;
+    // display: flex;
+    // align-items: center;
   }
 }
