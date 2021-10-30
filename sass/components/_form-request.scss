@@ -106,6 +106,9 @@
   @include centeredflex();
   line-height: 1.87;
   color: var(--main-text-color);
+  @media screen and (max-width: 1199px) {
+    @include font(400, 12px, 1.17);
+  }
 }
 
 .request-form__agreement-checkbox {
