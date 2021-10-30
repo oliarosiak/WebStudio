@@ -76,7 +76,10 @@
 
 .portfolio-list__overlay-text {
   @include font(400, 18px, 1.56);
-  width: 322px;
+  text-align: left;
+  padding-left: 24px;
+  padding-right: 24px;
+  // width: 322px;
   color: var(--third-text-color);
 }
 
