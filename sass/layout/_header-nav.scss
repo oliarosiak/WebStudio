@@ -1,6 +1,8 @@
 .nav {
-  width: 100vw;
   @include centeredflex(flex, space-between, center);
+  @media screen and (max-width: 1199px) {
+    width: 100vw;
+  }
   @media screen and (min-width: 768px) {
     @include centeredflex(flex, flex-start, center);
   }
@@ -52,26 +54,5 @@
       background-color: #2196f3;
       border-radius: 2px;
     }
-  }
-}
-
-.menu-btn {
-  display: inline-flex;
-  padding: 0;
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-}
-
-.menu-btn__icon-menu {
-  .menu-btn.is-open & {
-    display: none;
-  }
-}
-
-.menu-btn__icon-cross {
-  display: none;
-  .menu-btn.is-open & {
-    display: block;
   }
 }
