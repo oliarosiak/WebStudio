@@ -9,3 +9,9 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+@mixin backgroundimg($back-rep: no-repeat, $back-pos: center, $back-sz: cover) {
+  background-repeat: $back-rep;
+  background-position: $back-pos;
+  background-size: $back-sz;
+}
