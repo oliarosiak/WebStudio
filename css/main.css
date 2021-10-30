@@ -550,6 +550,13 @@ a {
   }
 }
 
+.nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media screen and (min-width: 768px) {
   .nav {
     display: flex;
@@ -603,6 +610,26 @@ a {
     background-color: #2196f3;
     border-radius: 2px;
   }
+}
+
+.menu-btn {
+  display: inline-flex;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.menu-btn.is-open .menu-btn__icon-menu {
+  display: none;
+}
+
+.menu-btn__icon-cross {
+  display: none;
+}
+
+.menu-btn.is-open .menu-btn__icon-cross {
+  display: block;
 }
 
 .contacts {
