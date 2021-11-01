@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: center;
+    justify-content: space-around;
   }
   @media screen and (min-width: 1200px) {
     text-align: left;
@@ -21,13 +21,8 @@
     margin-bottom: 60px;
   }
 
-  @media screen and (min-width: 768px) {
-    margin-right: 165px;
-  }
-
   @media screen and (min-width: 1200px) {
     flex-grow: 1;
-    margin-right: 70px;
   }
 }
 

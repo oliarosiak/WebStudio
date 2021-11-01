@@ -5,10 +5,9 @@
 .header__container {
   min-height: 59px;
   display: flex;
+  align-items: center;
 
   @media screen and (min-width: 768px) {
     min-height: 79px;
-    // display: flex;
-    // align-items: center;
   }
 }
