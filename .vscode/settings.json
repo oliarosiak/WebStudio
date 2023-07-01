@@ -1,21 +1,37 @@
 {
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "/css"
-        },
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "/css"
-        }
-    ],
-    "liveSassCompile.settings.excludeList": [
-        "**/node_modules/**",
-        ".vscode/**"
-    ],
-    "liveSassCompile.settings.generateMap": true,
-    "liveServer.settings.port": 1235,
-    "liveSassCompile.settings.autoprefix": null
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.generateMap": true,
+  "liveServer.settings.port": 1235,
+  "liveSassCompile.settings.autoprefix": null,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#e2d500",
+    "activityBar.background": "#e2d500",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#009f96",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#e2d500",
+    "statusBar.background": "#afa500",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#7c7500",
+    "statusBarItem.remoteBackground": "#afa500",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#afa500",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#afa50099",
+    "titleBar.inactiveForeground": "#15202b99"
+  }
 }
